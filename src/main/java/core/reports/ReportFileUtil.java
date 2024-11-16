@@ -34,7 +34,7 @@ public class ReportFileUtil {
             Files.copy(source, destination);
 
             // Print a clickable link to the copied file
-            System.out.println("HTML Report copied successfully: file:///" + destination.toAbsolutePath().toString());
+            System.out.println("HTML Report copied successfully: file:///" + destination.toAbsolutePath().toString().replace("\\", "/"));
         } catch (IOException e) {
             // Log the error
             e.printStackTrace();
