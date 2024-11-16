@@ -8,8 +8,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
 
-import java.nio.charset.StandardCharsets;
-
 public class CheckboxesSteps {
 
     CheckboxesPage checkboxesPage;
@@ -37,11 +35,6 @@ public class CheckboxesSteps {
     @When("I toggle checkbox 1 again")
     public void i_toggle_checkbox_1_again() {
         checkboxesPage.toggleCheckbox1();
-        // 3. Attach JSON data
-        String jsonContent = "{\"key\": \"value\", \"status\": \"passed\"}";
-        scenario.attach(jsonContent.getBytes(StandardCharsets.UTF_8),
-                "application/json",
-                "JSON Data");
     }
 
     @Then("checkbox 1 should be checked")
