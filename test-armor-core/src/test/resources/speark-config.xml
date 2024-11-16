@@ -1,0 +1,7 @@
+<configuration>
+    <theme>dark</theme>
+    <encoding>utf-8</encoding>
+    <protocol>https</protocol>
+    <documentTitle>Automation Report</documentTitle>
+    <reportName>Cucumber Test Report</reportName>
+</configuration>
