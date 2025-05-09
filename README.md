@@ -1,7 +1,5 @@
 # 🛡️ test-armor-core
 
-[![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://shields.io/)
-
 [![Java](https://img.shields.io/badge/java-8%2B-blue.svg)](https://www.oracle.com/java/technologies/javase-downloads.html)
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://chatgpt.com/c/LICENSE)
@@ -71,7 +69,7 @@
 ### ⚙️ Setup
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/gaurangpb/test-armor-core
 cd test-armor-core
 mvn clean install
 ```
